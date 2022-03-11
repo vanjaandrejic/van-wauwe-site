@@ -1,0 +1,55 @@
+@import url(//db.onlinewebfonts.com/c/36f9c126444387446c52b962a725f250?family=All+Round+Gothic);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+nav {
+  max-width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.nav-flag {
+  background: #304DE5;
+  color: #FFF;
+  padding: 25px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #1C1B21;
+  padding: 0px 15px;
+  word-wrap: normal;
+  display: inline-block;
+}
+
+.nav-icons i {
+  padding: 0 10px;
+  opacity: 60%;
+}
+
+.fa-bars {
+  margin-left: 30px;
+}
+
+.fa-angle-down {
+  margin-left: -22px;
+}
+/*# sourceMappingURL=main.css.map */
