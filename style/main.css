@@ -1,15 +1,15 @@
-@import url(//db.onlinewebfonts.com/c/36f9c126444387446c52b962a725f250?family=All+Round+Gothic);
+@import url(//db.onlinewebfonts.com/c/94b179c9d809017e4a5819787d60ab0f?family=All+Round+Gothic);
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Poppins';
+  font-family: "Poopins", sans-serif;
 }
 
 nav {
-  max-width: 80%;
+  width: 80vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,17 +23,16 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 auto;
-  padding: 0 20px;
   background-color: #FFF;
 }
 
-.nav-flag {
+.nav_flag {
   background: #304DE5;
   color: #FFF;
   padding: 25px;
 }
 
-.links a {
+.nav_links a {
   text-decoration: none;
   color: #1C1B21;
   padding: 0px 15px;
@@ -41,7 +40,7 @@ nav {
   display: inline-block;
 }
 
-.nav-icons i {
+.nav_icons i {
   padding: 0 10px;
   opacity: 60%;
 }
@@ -56,37 +55,45 @@ nav {
 
 header {
   width: 100vw;
-  height: 80vh;
+  height: 100%;
   background-color: black;
   background-image: url("../images/background1.png");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  color: #cfc3c3;
 }
 
-.container {
+.head_container {
   width: 80vw;
-  height: 100%;
+  height: 90vh;
   margin: 0 auto;
-  padding: 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.head-text {
-  max-width: 30vw;
+.head_text {
+  max-width: 25vw;
 }
 
-.head-text h1 {
-  font-size: 4rem;
+.head_text h1 {
+  font-size: 56px;
+  padding-bottom: 15px;
 }
 
-.head-text button {
+.head_text p {
+  font-size: 19px;
+  padding-bottom: 15px;
+}
+
+.head_text button {
   background-color: #304DE5;
   border: none;
   color: white;
@@ -97,29 +104,116 @@ header {
   font-size: 16px;
 }
 
-.head-aside {
+.head_aside {
   background-color: white;
-  width: 800px;
-  height: 600px;
+  width: 735px;
+  height: 550px;
   right: 0;
   position: relative;
 }
 
-.asidebackimg {
+.head_icons {
+  padding: 20px 10px;
+}
+
+.aside_back_img {
   position: absolute;
   right: 0;
 }
 
-.asidewindowimg {
+.aside_window_img {
   position: absolute;
   left: -15%;
   top: 10%;
 }
 
 .head_aside_text {
-  width: 30%;
+  width: 45%;
   position: absolute;
-  right: 0;
+  right: 70px;
+  bottom: 70px;
+}
+
+.head_aside_text h2 {
+  font-family: "All Round Gothic";
+  color: #304DE5;
+  font-size: 22px;
+  padding: 5px 0px;
+}
+
+.head_aside_text h3 {
+  font-family: "All Round Gothic";
+  color: black;
+  font-size: 22px;
+  padding: 5px 0px;
+}
+
+.head_aside_text h4 {
+  font-family: "All Round Gothic";
+  color: #304DE5;
+  font-size: 16px;
+  padding: 5px 0px;
+}
+
+.head_aside_text p {
+  font-family: "Poppins";
+  color: gray;
+  font-size: 17px;
+  padding: 5px 0px;
+}
+
+.head_footer {
+  width: 80%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
   bottom: 0;
+  background-color: #304DE5;
+  color: white;
+}
+
+.head_footer_item {
+  width: 20%;
+  font-size: 12px;
+  padding: 10px 80px;
+}
+
+.hf_ball {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.about {
+  width: 100vw;
+  height: 20vh;
+}
+
+.about_container {
+  width: 80vw;
+  height: 30vh;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=main.css.map */
