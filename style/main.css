@@ -8,8 +8,12 @@
   font-family: "Poopins", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 nav {
-  width: 80vw;
+  width: 90vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,7 +65,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  color: #cfc3c3;
+  color: white;
 }
 
 .head_container {
@@ -84,6 +88,7 @@ header {
 }
 
 .head_text h1 {
+  font-family: "All Round Gothic";
   font-size: 56px;
   padding-bottom: 15px;
 }
@@ -186,20 +191,23 @@ header {
 
 .head_footer_item {
   width: 20%;
-  font-size: 12px;
-  padding: 10px 80px;
+  padding: 50px;
 }
 
-.hf_ball {
-  background-color: white;
-  width: 40px;
-  height: 40px;
-  border-radius: 100%;
+.head_footer_item h1 {
+  font-family: "All Round Gothic";
+  font-size: 20px;
+}
+
+.head_overlay {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .about {
   width: 100vw;
   height: 20vh;
+  padding: 10px;
 }
 
 .about_container {
@@ -215,5 +223,45 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.about_container h1 {
+  font-family: "All Round Gothic";
+  font-size: 50px;
+}
+
+.about_text p {
+  font-family: 'Poppins';
+  font-size: 17px;
+  padding: 10px 0;
+  color: gray;
+}
+
+.about_text button {
+  background-color: #304DE5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.services {
+  width: 100vw;
+  height: 80vh;
+  padding-top: 200px;
+}
+
+.back_div {
+  background-color: #304DE5;
+  width: 70vw;
+  height: 150vh;
+}
+
+.services_container {
+  width: 80vw;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=main.css.map */
