@@ -5,7 +5,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Poopins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -111,7 +111,7 @@ header {
 
 .head_aside {
   background-color: white;
-  width: 735px;
+  width: 740px;
   height: 550px;
   right: 0;
   position: relative;
@@ -230,6 +230,10 @@ header {
   font-size: 50px;
 }
 
+.about_text {
+  max-width: 50%;
+}
+
 .about_text p {
   font-family: 'Poppins';
   font-size: 17px;
@@ -252,16 +256,55 @@ header {
   width: 100vw;
   height: 80vh;
   padding-top: 200px;
+  color: white;
 }
 
 .back_div {
   background-color: #304DE5;
   width: 70vw;
   height: 150vh;
+  position: absolute;
+  right: 0;
 }
 
 .services_container {
   width: 80vw;
   margin: 0 auto;
+}
+
+.services_img {
+  position: absolute;
+  margin-top: 6%;
+}
+
+.services_text {
+  position: absolute;
+  right: 0px;
+  max-width: 30%;
+  margin-top: 15%;
+  margin-right: 6%;
+}
+
+.services_text h1 {
+  font-family: "All Round Gothic";
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+
+.services_text p {
+  font-family: "Poppins";
+  font-size: 17px;
+  padding: 10px 0;
+}
+
+.services_text button {
+  background-color: white;
+  border: none;
+  color: #304DE5;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 /*# sourceMappingURL=main.css.map */

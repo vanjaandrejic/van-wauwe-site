@@ -18,11 +18,15 @@
     font-size: 50px;
 }
 
+.about_text {
+    max-width: 50%;
+}
+
 .about_text p{
     font-family: 'Poppins';
     font-size: 17px;
     padding: 10px 0;
-    color: gray;
+    color: gray
 }
 
 .about_text button {
