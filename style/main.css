@@ -42,6 +42,7 @@ nav {
   padding: 0px 15px;
   word-wrap: normal;
   display: inline-block;
+  font-size: 18px;
 }
 
 .nav_icons i {
@@ -70,7 +71,7 @@ header {
 
 .head_container {
   width: 80vw;
-  height: 90vh;
+  height: 93vh;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,12 +90,12 @@ header {
 
 .head_text h1 {
   font-family: "All Round Gothic";
-  font-size: 56px;
+  font-size: 60px;
   padding-bottom: 15px;
 }
 
 .head_text p {
-  font-size: 19px;
+  font-size: 17px;
   padding-bottom: 15px;
 }
 
@@ -196,7 +197,7 @@ header {
 
 .head_footer_item h1 {
   font-family: "All Round Gothic";
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .head_overlay {
@@ -228,10 +229,11 @@ header {
 .about_container h1 {
   font-family: "All Round Gothic";
   font-size: 50px;
+  max-width: 25%;
 }
 
 .about_text {
-  max-width: 50%;
+  max-width: 70%;
 }
 
 .about_text p {
@@ -254,7 +256,7 @@ header {
 
 .services {
   width: 100vw;
-  height: 80vh;
+  height: 90vh;
   padding-top: 200px;
   color: white;
 }
@@ -262,7 +264,7 @@ header {
 .back_div {
   background-color: #304DE5;
   width: 70vw;
-  height: 150vh;
+  height: 170vh;
   position: absolute;
   right: 0;
 }
@@ -282,7 +284,7 @@ header {
   right: 0px;
   max-width: 30%;
   margin-top: 15%;
-  margin-right: 6%;
+  margin-right: 10%;
 }
 
 .services_text h1 {
@@ -306,5 +308,36 @@ header {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.slider {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 240%;
+  left: -15%;
+}
+
+.slider_images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.slider_images img {
+  padding: 0 10px;
+}
+
+.slider_btns {
+  position: absolute;
+  top: 300%;
+  left: 50%;
 }
 /*# sourceMappingURL=main.css.map */
