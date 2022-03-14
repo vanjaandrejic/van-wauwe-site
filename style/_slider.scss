@@ -3,19 +3,18 @@
     margin: 0 auto;
     position: absolute;
     top: 240%;
-    left: -15%;
+    left: 25%;
 }
 
 
 .slider_images {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    width: 100vw;
 }
 
 .slider_images img {
-    padding: 0 10px;
+    padding: 0 15px;
 }
 
 .slider_btns {

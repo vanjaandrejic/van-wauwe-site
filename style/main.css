@@ -315,7 +315,7 @@ header {
   margin: 0 auto;
   position: absolute;
   top: 240%;
-  left: -15%;
+  left: 25%;
 }
 
 .slider_images {
@@ -325,14 +325,11 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
+  width: 100vw;
 }
 
 .slider_images img {
-  padding: 0 10px;
+  padding: 0 15px;
 }
 
 .slider_btns {
