@@ -561,4 +561,74 @@ header {
 .card_inf_row h3 {
   font-size: 18px;
 }
+
+.news {
+  width: 100vw;
+  height: 100vh;
+  background-color: #304DE5;
+  margin-top: 55%;
+  color: white;
+}
+
+.news h1 {
+  font-family: "All Round Gothic";
+  font-size: 50px;
+  margin-left: 10%;
+  padding-top: 5%;
+}
+
+.news button {
+  background-color: white;
+  border: none;
+  color: #304DE5;
+  padding: 15px 32px;
+  margin-top: 5%;
+  margin-left: 45%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.news_container {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.news_card {
+  width: 30%;
+  margin-top: 5%;
+}
+
+.news_card_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.news_card h3 {
+  font-family: "All Round Gothic";
+  font-size: 22px;
+  padding: 5px 0;
+}
+
+.news_card p {
+  font-size: 17px;
+  color: #B7BFEA;
+  padding: 5px 0;
+}
+
+.news_card h2 {
+  font-size: 16px;
+  padding: 10px 0;
+}
 /*# sourceMappingURL=main.css.map */

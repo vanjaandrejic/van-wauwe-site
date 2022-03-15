@@ -1,0 +1,62 @@
+.news {
+    width: 100vw;
+    height: 100vh;
+    background-color: $blue;
+    margin-top: 55%;
+    color: white;
+}
+
+.news h1 {
+    font-family: "All Round Gothic";
+    font-size: 50px;
+    margin-left: 10%;
+    padding-top: 5%;
+}
+
+.news button {
+    background-color: white; 
+    border: none;
+    color: $blue;
+    padding: 15px 32px;
+    margin-top: 5%;
+    margin-left: 45%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.news_container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news_card {
+    width: 30%;
+    margin-top: 5%;
+}
+
+.news_card_row {
+    display: flex;
+}
+
+.news_card h3 {
+    font-family: "All Round Gothic";
+    font-size: 22px;
+    padding: 5px 0;
+}
+
+.news_card p {
+    font-size: 17px;
+    color: #B7BFEA;
+    padding: 5px 0;
+}
+
+.news_card h2 {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
