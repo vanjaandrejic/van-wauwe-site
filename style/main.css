@@ -264,7 +264,7 @@ header {
 .back_div {
   background-color: #304DE5;
   width: 70vw;
-  height: 170vh;
+  height: 150vh;
   position: absolute;
   right: 0;
 }
@@ -310,11 +310,55 @@ header {
   font-size: 16px;
 }
 
+.services_footer {
+  position: absolute;
+  top: 280%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10%;
+  color: black;
+}
+
+.service_footer_text {
+  width: 40%;
+}
+
+.service_footer_text h1 {
+  font-family: "All Round Gothic";
+  font-size: 50px;
+  padding-bottom: 5%;
+}
+
+.service_footer_text p {
+  font-size: 17px;
+  color: gray;
+  padding: 15px 0;
+}
+
+.service_footer_text button {
+  background-color: #304DE5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-top: 8%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 .slider {
   width: 100%;
   margin: 0 auto;
   position: absolute;
-  top: 240%;
+  top: 225%;
   left: 25%;
 }
 
@@ -334,7 +378,17 @@ header {
 
 .slider_btns {
   position: absolute;
-  top: 300%;
+  top: 280%;
   left: 50%;
+}
+
+.slide_left {
+  background-color: transparent;
+  border: none;
+}
+
+.slide_right {
+  background-color: transparent;
+  border: none;
 }
 /*# sourceMappingURL=main.css.map */

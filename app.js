@@ -4,7 +4,6 @@ const sliderImages = document.querySelectorAll('.slider_images img');
 const prevBtn = document.querySelector('.slide_left');
 const nextBtn = document.querySelector('.slide_right');
 
-// counter
 
 let counter = 1;
 const size = 950;
@@ -40,13 +39,3 @@ prevBtn.addEventListener('click', ()=> {
     console.log(counter);
     }
 });
-
-
-// slider.addEventListener('transitionend', () => {
-//     if(sliderImages[counter].id === 'lastClone') {
-        
-        
-//         counter = sliderImages.length -2;
-//         slider.style.transform = 'translateX(' + (-size * counter) + 'px)'; 
-//     }
-// })

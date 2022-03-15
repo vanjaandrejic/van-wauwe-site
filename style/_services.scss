@@ -8,7 +8,7 @@
 .back_div {
    background-color: $blue; 
    width: 70vw;
-   height: 170vh;
+   height: 150vh;
    position: absolute;
    right: 0;
 }
@@ -53,6 +53,45 @@
     display: inline-block;
     font-size: 16px;
 }
+
+.services_footer {
+    position: absolute;
+    top: 280%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10%;
+    color: black;
+}
+
+.service_footer_text {
+    width: 40%;
+}
+
+.service_footer_text h1 {
+    font-family: "All Round Gothic";
+    font-size: 50px;
+    padding-bottom: 5%;
+}
+
+.service_footer_text p {
+    font-size: 17px;
+    color: gray;
+    padding: 15px 0;
+}
+
+.service_footer_text button {
+    background-color: $blue; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-top: 8%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 
 
 
