@@ -96,23 +96,23 @@
 }
 
 .head_aside_text {
-  left: 50%;
+  left: 55%;
 }
 
 .head_aside_text h2{
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .head_aside_text h3{
-font-size: 16px;
+font-size: 14px;
 }
 
 .head_aside_text h4 {
-font-size: 16px;
+font-size: 14px;
 }
 
 .head_aside_text p {
-font-size: 16px;
+font-size: 12px;
 }
 
 .news_footer_card_third h2 {
@@ -208,6 +208,14 @@ font-size: 16px;
   margin-top: 95%;
 }
 
+.news h1 {
+  font-size: 40px;
+}
+
+.about_container h1 {
+  font-size: 40px;
+}
+
 .contact h1 {
   font-size: 40px;
 }
@@ -242,6 +250,10 @@ font-size: 16px;
 
   .news_card h3 {
     font-size: 18px;
+  }
+
+  .service_footer_text h1 {
+    font-size: 35px;
   }
 
 }

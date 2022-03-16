@@ -258,7 +258,7 @@ header {
 .back_div {
   background-color: #304DE5;
   width: 70vw;
-  height: 150vh;
+  height: 155vh;
   position: absolute;
   right: 0;
 }
@@ -329,7 +329,7 @@ header {
 .service_footer_text h1 {
   font-family: "All Round Gothic";
   font-size: 50px;
-  padding-bottom: 5%;
+  padding: 5% 0;
 }
 
 .service_footer_text p {
@@ -354,7 +354,7 @@ header {
   width: 100%;
   margin: 0 auto;
   position: absolute;
-  top: 225%;
+  top: 235%;
   left: 25%;
 }
 
@@ -374,7 +374,7 @@ header {
 
 .slider_btns {
   position: absolute;
-  top: 280%;
+  top: 285%;
   left: 50%;
 }
 
@@ -544,6 +544,16 @@ header {
   font-family: "All Round Gothic";
   font-size: 30px;
   padding-bottom: 1%;
+}
+
+.card_inf_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .card_inf_row p {
@@ -939,19 +949,19 @@ footer {
     width: 30vw;
   }
   .head_aside_text {
-    left: 50%;
+    left: 55%;
   }
   .head_aside_text h2 {
-    font-size: 16px;
+    font-size: 14px;
   }
   .head_aside_text h3 {
-    font-size: 16px;
+    font-size: 14px;
   }
   .head_aside_text h4 {
-    font-size: 16px;
+    font-size: 14px;
   }
   .head_aside_text p {
-    font-size: 16px;
+    font-size: 12px;
   }
   .news_footer_card_third h2 {
     font-size: 18px;
@@ -1022,6 +1032,12 @@ footer {
   .news {
     margin-top: 95%;
   }
+  .news h1 {
+    font-size: 40px;
+  }
+  .about_container h1 {
+    font-size: 40px;
+  }
   .contact h1 {
     font-size: 40px;
   }
@@ -1048,6 +1064,9 @@ footer {
   }
   .news_card h3 {
     font-size: 18px;
+  }
+  .service_footer_text h1 {
+    font-size: 35px;
   }
 }
 

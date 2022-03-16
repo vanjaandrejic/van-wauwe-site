@@ -132,6 +132,11 @@
     padding-bottom: 1%;
 }
 
+.card_inf_row {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .card_inf_row p {
     font-size: 17px;
