@@ -1,16 +1,19 @@
 .news {
     width: 100vw;
-    height: 105vh;
+    height: 100%;
     background-color: $blue;
-    margin-top: 55%;
+    margin-top: 65%;
     color: white;
 }
+
 
 .news h1 {
     font-family: "All Round Gothic";
     font-size: 50px;
     margin-left: 10%;
-    padding-top: 5%;
+    padding: 5% 0; 
+    width: 100vw;
+    height: 10vh;
 }
 
 .news_button {
@@ -18,29 +21,48 @@
     border: none;
     color: $blue;
     padding: 15px 32px;
-    margin-top: 5%;
     margin-left: 45%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    position: relative;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .news_container {
     width: 80%;
-    margin: auto;
+    height: 90%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .news_card {
     width: 30%;
-    margin-top: 5%;
+    height: 100%;
+    margin: 5% 0;
+
+}
+.news_card_img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 .news_card_row {
     display: flex;
+    align-items: center;
+}
+
+.news_card_row h4 {
+    padding: 4px;
+    margin: 15px 15px 20px 0;
+    background-color: white;
+    color: #1C1B21;
+    
 }
 
 .news_card h3 {
@@ -50,7 +72,7 @@
 }
 
 .news_card p {
-    font-size: 17px;
+    font-size: 16px;
     color: #B7BFEA;
     padding: 5px 0;
 }
@@ -78,6 +100,11 @@
     justify-content: space-between;
     align-items: flex-start;
     margin: auto;
+    margin-top: 5%;
+}
+
+.news_footer_card_second_box_text {
+    padding: 5% 0;
 }
 
 .news_footer_card_first {
@@ -113,13 +140,13 @@
 .news_footer_card_second h3 {
     font-family: "All Round Gothic";
     font-size: 18px;
-    padding: 4% 0;
+    padding: 1% 0;
 }
 
 .news_footer_card_second p {
     font-size: 14px;
     color: #B7BFEA;
-    padding: 2% 0;
+    padding: 1% 0;
 }
 
 .news_footer_card_second_box {
@@ -129,7 +156,7 @@
 }
 
 .news_footer_social_icons h2 {
-    margin-top: 25%;
+    margin-top: 20%;
     font-size: 20px;
 
 }
@@ -144,6 +171,7 @@
     background-color: #304DE5;
     padding: 3%;
 }
+
 
 
 .news_footer_card_third h2 {

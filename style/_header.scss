@@ -105,11 +105,10 @@ header {
 }
 
 .head_footer {
-    width: 80%;
-    height: 60px;
+    width: 80vw;
+    height: 5%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: absolute;
     bottom: 0;
@@ -119,14 +118,14 @@ header {
 
 .head_footer_item {
     width: 20%;
-    padding: 50px;
 }
 
 
 
 .head_footer_item h1 {
     font-family: "All Round Gothic";
-    font-size: 22px;
+    font-size: 20px;
+    padding-left: 20%;
 }
 
 .head_overlay {

@@ -168,18 +168,13 @@ header {
 }
 
 .head_footer {
-  width: 80%;
-  height: 60px;
+  width: 80vw;
+  height: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -191,12 +186,12 @@ header {
 
 .head_footer_item {
   width: 20%;
-  padding: 50px;
 }
 
 .head_footer_item h1 {
   font-family: "All Round Gothic";
-  font-size: 22px;
+  font-size: 20px;
+  padding-left: 20%;
 }
 
 .head_overlay {
@@ -310,9 +305,10 @@ header {
 }
 
 .services_footer {
-  height: 80vh;
-  position: absolute;
-  top: 280%;
+  max-height: 80vh;
+  position: relative;
+  top: 210%;
+  bottom: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -323,7 +319,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   color: black;
-  margin: 15%;
+  margin: 10%;
 }
 
 .service_footer_text {
@@ -394,12 +390,12 @@ header {
 
 .contact {
   width: 100vw;
-  height: 124vh;
+  height: 120vh;
   background-image: url("../images/background2.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  margin-top: 110%;
+  margin-top: 100%;
 }
 
 .contact h1 {
@@ -413,6 +409,7 @@ header {
 .contact_overlay {
   position: relative;
   background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
 }
 
 .contact_container {
@@ -445,21 +442,18 @@ header {
   font-size: 16px;
   margin-bottom: 6%;
   margin-left: 40%;
+  position: relative;
 }
 
 .contact_card_wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
 }
 
 .card {
   margin: 30px;
-  width: 100%;
+  width: 30%;
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -473,19 +467,21 @@ header {
 .card h2 {
   font-family: "All Round Gothic";
   font-size: 22px;
-  padding: 15px 5px;
+  padding: 20px 30px;
 }
 
 .card p {
   color: gray;
-  padding: 5px 10px 50px 10px;
+  padding: 10px 30px;
   font-size: 17px;
 }
 
 .card h3 {
   font-size: 16px;
   color: #304DE5;
-  padding: 50px 10px 10px 10px;
+  padding: 20px 20px;
+  position: relative;
+  margin-top: 2%;
 }
 
 .contact_info_cards {
@@ -530,7 +526,7 @@ header {
 
 .card_inf {
   width: 30vw;
-  height: 50vh;
+  height: 55vh;
   background-color: #EDEFF8;
   margin: 20px;
   display: -webkit-box;
@@ -567,9 +563,9 @@ header {
 
 .news {
   width: 100vw;
-  height: 105vh;
+  height: 100%;
   background-color: #304DE5;
-  margin-top: 55%;
+  margin-top: 65%;
   color: white;
 }
 
@@ -577,7 +573,9 @@ header {
   font-family: "All Round Gothic";
   font-size: 50px;
   margin-left: 10%;
-  padding-top: 5%;
+  padding: 5% 0;
+  width: 100vw;
+  height: 10vh;
 }
 
 .news_button {
@@ -585,37 +583,58 @@ header {
   border: none;
   color: #304DE5;
   padding: 15px 32px;
-  margin-top: 5%;
   margin-left: 45%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  position: relative;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
 .news_container {
   width: 80%;
-  margin: auto;
+  height: 90%;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .news_card {
   width: 30%;
-  margin-top: 5%;
+  height: 100%;
+  margin: 5% 0;
+}
+
+.news_card_img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .news_card_row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.news_card_row h4 {
+  padding: 4px;
+  margin: 15px 15px 20px 0;
+  background-color: white;
+  color: #1C1B21;
 }
 
 .news_card h3 {
@@ -625,7 +644,7 @@ header {
 }
 
 .news_card p {
-  font-size: 17px;
+  font-size: 16px;
   color: #B7BFEA;
   padding: 5px 0;
 }
@@ -662,6 +681,11 @@ header {
       -ms-flex-align: start;
           align-items: flex-start;
   margin: auto;
+  margin-top: 5%;
+}
+
+.news_footer_card_second_box_text {
+  padding: 5% 0;
 }
 
 .news_footer_card_first {
@@ -711,13 +735,13 @@ header {
 .news_footer_card_second h3 {
   font-family: "All Round Gothic";
   font-size: 18px;
-  padding: 4% 0;
+  padding: 1% 0;
 }
 
 .news_footer_card_second p {
   font-size: 14px;
   color: #B7BFEA;
-  padding: 2% 0;
+  padding: 1% 0;
 }
 
 .news_footer_card_second_box {
@@ -734,7 +758,7 @@ header {
 }
 
 .news_footer_social_icons h2 {
-  margin-top: 25%;
+  margin-top: 20%;
   font-size: 20px;
 }
 
@@ -786,12 +810,13 @@ footer {
       -ms-flex-direction: row;
           flex-direction: row;
   width: 100vw;
-  height: 5vh;
-  position: relative;
-  top: 775px;
+  height: 8vh;
   background-color: #1C1B21;
   color: #B7BFEA;
-  font-size: 14px;
+  font-size: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer_container {
@@ -802,7 +827,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 80vw;
+  width: 85vw;
   margin: 0 auto;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -816,9 +841,137 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .footer_list p {
-  padding: 0 7px;
+  padding: 0 1%;
+}
+
+@media all and (max-width: 1770px) {
+  .news {
+    margin-top: 75%;
+  }
+}
+
+@media all and (max-width: 1700px) {
+  .contact {
+    margin-top: 110%;
+  }
+}
+
+@media all and (max-width: 1670px) {
+  .head_text h1 {
+    font-size: 45px;
+  }
+  .head_text p {
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 1604px) {
+  .card_inf_row p {
+    font-size: 13px;
+  }
+}
+
+@media all and (max-width: 1550px) {
+  .news_footer_card_third {
+    padding: 1%;
+  }
+}
+
+@media all and (max-width: 1530px) {
+  .contact {
+    margin-top: 120%;
+  }
+}
+
+@media all and (max-width: 1500px) {
+  .news {
+    margin-top: 80%;
+  }
+}
+
+@media all and (max-width: 1450px) {
+  .services_img img {
+    width: 45vw;
+    margin-top: 20%;
+  }
+  .services_text {
+    width: 25vw;
+  }
+  .head_aside {
+    width: 40vw;
+    height: 46vh;
+  }
+  .aside_back_img img {
+    width: 30vw;
+  }
+  .aside_window_img img {
+    width: 30vw;
+  }
+  .head_aside_text {
+    left: 50%;
+  }
+  .head_aside_text h2 {
+    font-size: 16px;
+  }
+  .head_aside_text h3 {
+    font-size: 16px;
+  }
+  .head_aside_text h4 {
+    font-size: 16px;
+  }
+  .head_aside_text p {
+    font-size: 16px;
+  }
+}
+
+@media all and (max-width: 1350px) {
+  .head_aside_text h2 {
+    font-size: 16px;
+  }
+  .head_aside_text h3 {
+    font-size: 16px;
+  }
+  .head_aside_text h4 {
+    font-size: 16px;
+  }
+  .head_aside_text p {
+    font-size: 16px;
+  }
+}
+
+@media all and (max-width: 1300px) {
+  .nav_links a {
+    font-size: 14px;
+  }
+  .nav_flag h3 {
+    font-size: 14px;
+  }
+  .logo {
+    width: 20%;
+  }
+}
+
+@media all and (max-width: 1150px) {
+  .fa-bars {
+    margin-left: 10px;
+  }
+  .fa-angle-down {
+    margin-left: -15px;
+  }
+  .nav_flag h3 {
+    font-size: 14px;
+  }
+  .nav_links a {
+    padding: 0 5px;
+  }
+  .nav_icons i {
+    padding: 0 5px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
