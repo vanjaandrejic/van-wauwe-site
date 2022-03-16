@@ -117,8 +117,8 @@ header {
   position: relative;
 }
 
-.head_icons {
-  padding: 20px 10px;
+.head_buttons {
+  padding: 5% 0;
 }
 
 .aside_back_img {
@@ -394,7 +394,7 @@ header {
 
 .contact {
   width: 100vw;
-  height: 90vh;
+  height: 124vh;
   background-image: url("../images/background2.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -407,6 +407,7 @@ header {
   color: white;
   font-size: 50px;
   padding-top: 6%;
+  margin-left: 30%;
 }
 
 .contact_overlay {
@@ -420,10 +421,10 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -433,7 +434,7 @@ header {
   margin: 0 auto;
 }
 
-.contact_container button {
+.contact button {
   background-color: #304DE5;
   border: none;
   color: white;
@@ -443,6 +444,7 @@ header {
   display: inline-block;
   font-size: 16px;
   margin-bottom: 6%;
+  margin-left: 40%;
 }
 
 .contact_card_wrapper {
@@ -511,6 +513,7 @@ header {
   font-family: "All Round Gothic";
   color: #000000;
   padding-bottom: 5%;
+  margin-right: 30%;
 }
 
 .contact_info_cards button {
@@ -564,7 +567,7 @@ header {
 
 .news {
   width: 100vw;
-  height: 100vh;
+  height: 105vh;
   background-color: #304DE5;
   margin-top: 55%;
   color: white;
@@ -577,7 +580,7 @@ header {
   padding-top: 5%;
 }
 
-.news button {
+.news_button {
   background-color: white;
   border: none;
   color: #304DE5;
@@ -630,5 +633,192 @@ header {
 .news_card h2 {
   font-size: 16px;
   padding: 10px 0;
+}
+
+.news_footer {
+  width: 100vw;
+  height: 80vh;
+  background-color: #1C1B21;
+  margin-top: 1%;
+}
+
+.news_footer h1 {
+  width: 100vw;
+}
+
+.news_footer_container {
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: auto;
+}
+
+.news_footer_card_first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.news_footer_card_first h2 {
+  font-family: "All Round Gothic";
+  font-size: 24px;
+  padding: 30% 0;
+}
+
+.news_footer_card_first p {
+  font-size: 14px;
+  color: #B7BFEA;
+  padding: 5% 0;
+}
+
+.news_footer_card_second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.news_footer_card_second h2 {
+  font-family: "All Round Gothic";
+  font-size: 24px;
+  padding: 14% 0;
+}
+
+.news_footer_card_second h3 {
+  font-family: "All Round Gothic";
+  font-size: 18px;
+  padding: 4% 0;
+}
+
+.news_footer_card_second p {
+  font-size: 14px;
+  color: #B7BFEA;
+  padding: 2% 0;
+}
+
+.news_footer_card_second_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.news_footer_social_icons h2 {
+  margin-top: 25%;
+  font-size: 20px;
+}
+
+.news_footer_social_icons i {
+  padding-right: 10%;
+}
+
+.news_footer_card_third {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #304DE5;
+  padding: 3%;
+}
+
+.news_footer_card_third h2 {
+  font-family: "All Round Gothic";
+  font-size: 24px;
+  padding-bottom: 10%;
+}
+
+.news_footer_card_third h3 {
+  font-size: 18px;
+  padding: 10% 0;
+}
+
+.news_footer_card_button {
+  background-color: white;
+  border: none;
+  color: #304DE5;
+  padding: 10px;
+  margin-top: 15%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100vw;
+  height: 5vh;
+  position: relative;
+  top: 775px;
+  background-color: #1C1B21;
+  color: #B7BFEA;
+  font-size: 14px;
+}
+
+.footer_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 80vw;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer_list p {
+  padding: 0 7px;
 }
 /*# sourceMappingURL=main.css.map */

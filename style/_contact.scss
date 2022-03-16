@@ -1,6 +1,6 @@
 .contact {
     width: 100vw;
-    height: 90vh;
+    height: 124vh;
     background-image: url("../images/background2.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,6 +13,7 @@
     color: white;
     font-size: 50px;
     padding-top: 6%;
+    margin-left: 30%;
 }
 
 .contact_overlay {
@@ -24,13 +25,13 @@
     width: 80vw;
     height: 90vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
 }
 
-.contact_container button {
+.contact button {
     background-color: $blue; 
     border: none;
     color: white;
@@ -40,6 +41,7 @@
     display: inline-block;
     font-size: 16px;
     margin-bottom: 6%;
+    margin-left: 40%;
 }
 
 .contact_card_wrapper {
@@ -89,6 +91,7 @@
     font-family: "All Round Gothic";
     color: #000000;
     padding-bottom: 5%;
+    margin-right: 30%;
 }
 
 .contact_info_cards button {
