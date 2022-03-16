@@ -78,14 +78,14 @@
 
 .service_footer_text p {
     font-size: 17px;
-    color: gray;
+    color: $gray;
     padding: 15px 0;
 }
 
 .service_footer_text button {
     background-color: $blue; 
     border: none;
-    color: white;
+    color: $white;
     padding: 15px 32px;
     margin-top: 8%;
     text-align: center;

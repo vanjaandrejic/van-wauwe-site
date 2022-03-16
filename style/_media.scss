@@ -1,3 +1,9 @@
+@media all and (max-width: 1880px) {
+  .contact {
+    margin-top: 110%;
+  }
+}
+
 @media all and (max-width: 1770px) {
   .news {
       margin-top: 75%;
@@ -6,7 +12,7 @@
 
 @media all and (max-width: 1700px) {
     .contact {
-        margin-top: 110%;
+        margin-top: 120%;
     }
   }
   
@@ -35,7 +41,7 @@
 
   @media all and (max-width: 1530px) {
     .contact {
-        margin-top: 120%;
+        margin-top: 130%;
     }
   }
 
@@ -43,8 +49,26 @@
 
   @media all and (max-width: 1500px) {
     .news {
-        margin-top: 80%;
+        margin-top: 85%;
     }
+
+    .news_card_img img{
+      width: 25vw; 
+  }
+
+    .contact {
+      margin-top: 140%;
+  }
+
+  .services_text h1{
+    font-size: 40px;
+  }
+
+  .services_text p {
+    font-size: 15px;
+  }
+
+
   }
 
 
@@ -60,7 +84,7 @@
 
     .head_aside {
       width: 40vw;
-      height: 46vh;
+      height: 40vh;
        }
     
   .aside_back_img img{
@@ -90,25 +114,77 @@ font-size: 16px;
 .head_aside_text p {
 font-size: 16px;
 }
-  }
 
-   @media all and (max-width: 1350px) {
-    .head_aside_text h2{
-        font-size: 16px;
-    }
-
-    .head_aside_text h3{
-      font-size: 16px;
-  }
-
-  .head_aside_text h4 {
-    font-size: 16px;
+.news_footer_card_third h2 {
+  font-size: 18px;
 }
 
-.head_aside_text p {
+.news_footer_card_third h3 {
   font-size: 16px;
 }
+
+.news_footer_card_third button {
+  font-size: 14px;
+}
+
+.news_footer_card_third_img img {
+  width: 20vw; 
+}
   }
+
+
+
+  @media all and (max-width: 1400px) {
+    .head_aside_text h2{
+      font-size: 14px;
+    }
+    
+    .head_aside_text h3{
+    font-size: 14px;
+    }
+    
+    .head_aside_text h4 {
+    font-size: 14px;
+    }
+    
+    .head_aside_text p {
+    font-size: 14px;
+    }
+
+    .service_footer_img img{
+      width: 40vw; 
+  }
+  }
+
+
+@media all and (max-width: 1350px) {
+  .news_footer_card_first h2 {
+    font-size: 20px;
+  }
+
+  .news_footer_card_first p {
+    font-size: 12px;
+  }
+
+  .news_footer_card_second h2 {
+    font-size: 20px;
+  }
+
+  .news_footer_card_second p {
+    font-size: 12px;
+  }
+
+  .card_inf h2 {
+    font-size: 20px;
+  }
+
+  .card_inf_row h3 {
+    font-size: 12px;
+  }
+}
+
+
+  
   
 @media all and (max-width: 1300px) {
   .nav_links a {
@@ -122,8 +198,63 @@ font-size: 16px;
   .logo {
     width: 20%;
   }
+
+  .contact {
+    margin-top: 150%;
+  }
+
+
+.news {
+  margin-top: 95%;
 }
 
+.contact h1 {
+  font-size: 40px;
+}
+
+.card h2 {
+  font-size: 18px;
+}
+
+.card p {
+  font-size: 14px;
+}
+
+.news_footer_card_first h2 {
+  margin: 5% 0;
+}
+}
+
+
+@media all and (max-width: 1230px) {
+
+  .head_footer_item h1 {
+    font-size: 16px;
+  }
+
+  .contact {
+    margin-top: 160%;
+  }
+
+  .news_card h2 {
+    font-size: 10px;
+  }
+
+  .news_card h3 {
+    font-size: 18px;
+  }
+
+}
+
+@media all and (max-width: 1170px) {
+  .contact {
+    margin-top: 170%;
+  }
+
+  .news {
+    margin-top: 105%;
+  }
+}
 
 @media all and (max-width: 1150px) {
   .fa-bars {

@@ -84,7 +84,7 @@
 
 .news_footer {
     width: 100vw;
-    height: 80vh;
+    height: 110vh;
     background-color: #1C1B21;
     margin-top: 1%;
 }
@@ -155,6 +155,10 @@
     justify-content: space-between;
 }
 
+.news_footer_social_icons {
+    position: relative;
+}
+
 .news_footer_social_icons h2 {
     margin-top: 20%;
     font-size: 20px;
@@ -190,7 +194,7 @@
     background-color: white; 
     border: none;
     color: $blue;
-    padding: 10px;
+    padding: 2%;
     margin-top: 15%;
     text-align: center;
     text-decoration: none;
