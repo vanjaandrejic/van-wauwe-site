@@ -1,34 +1,33 @@
 .slider {
-    width: 100%;
-    margin: 0 auto;
-    position: absolute;
-    top: 230%;
-    left: 25%;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 230%;
+  left: 25%;
 }
 
-
 .slider_images {
-    display: flex;
-    justify-content: space-between;
-    width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
 }
 
 .slider_images img {
-    padding: 0 15px;
+  padding: 0 15px;
 }
 
 .slider_btns {
-    position: absolute;
-    top: 285%;
-    left: 50%;
+  position: absolute;
+  top: 285%;
+  left: 50%;
 }
 
 .slide_left {
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
 }
 
 .slide_right {
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
 }

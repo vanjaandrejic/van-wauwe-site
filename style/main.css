@@ -27,18 +27,18 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 auto;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .nav_flag {
-  background: #304DE5;
-  color: #FFF;
+  background: #304de5;
+  color: #fff;
   padding: 25px;
 }
 
 .nav_links a {
   text-decoration: none;
-  color: #1C1B21;
+  color: #1c1b21;
   padding: 0px 15px;
   word-wrap: normal;
   display: inline-block;
@@ -147,7 +147,7 @@ header {
 
 .head_aside_text h2 {
   font-family: "All Round Gothic";
-  color: #304DE5;
+  color: #304de5;
   font-size: 22px;
   padding: 5px 0px;
 }
@@ -161,7 +161,7 @@ header {
 
 .head_aside_text h4 {
   font-family: "All Round Gothic";
-  color: #304DE5;
+  color: #304de5;
   font-size: 16px;
   padding: 5px 0px;
 }
@@ -186,7 +186,7 @@ header {
           align-items: center;
   position: absolute;
   bottom: 0;
-  background-color: #304DE5;
+  background-color: #304de5;
   color: white;
 }
 
@@ -196,8 +196,12 @@ header {
 
 .head_footer_item h1 {
   font-family: "All Round Gothic";
-  font-size: 18px;
+  font-size: 19px;
   padding-left: 20%;
+}
+
+.head_footer_item h1:hover {
+  letter-spacing: 0.05em;
 }
 
 .head_overlay {
@@ -237,7 +241,7 @@ header {
 }
 
 .about_text p {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 17px;
   padding: 10px 0;
   color: gray;
@@ -564,7 +568,7 @@ header {
   width: 30vw;
   height: 100%;
   min-height: 50vh;
-  background-color: #EDEFF8;
+  background-color: #edeff8;
   margin: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -687,7 +691,7 @@ header {
   padding: 4px;
   margin: 15px 15px 20px 0;
   background-color: #ffff;
-  color: #1C1B21;
+  color: #1c1b21;
 }
 
 .news_card h3 {
@@ -698,7 +702,7 @@ header {
 
 .news_card p {
   font-size: 16px;
-  color: #B7BFEA;
+  color: #b7bfea;
   padding: 5px 0;
 }
 
@@ -710,7 +714,7 @@ header {
 .news_footer {
   width: 100vw;
   height: 110vh;
-  background-color: #1C1B21;
+  background-color: #1c1b21;
   margin-top: 1%;
 }
 
@@ -762,7 +766,7 @@ header {
 
 .news_footer_card_first p {
   font-size: 14px;
-  color: #B7BFEA;
+  color: #b7bfea;
   padding: 5% 0;
 }
 
@@ -793,7 +797,7 @@ header {
 
 .news_footer_card_second p {
   font-size: 14px;
-  color: #B7BFEA;
+  color: #b7bfea;
   padding: 1% 0;
 }
 
@@ -823,6 +827,11 @@ header {
   padding-right: 10%;
 }
 
+.news_footer_social_icons i:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .news_footer_card_third {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -831,7 +840,7 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #304DE5;
+  background-color: #304de5;
   padding: 3%;
 }
 
@@ -858,6 +867,12 @@ header {
   font-size: 16px;
 }
 
+.news_footer_card_button:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+  border-radius: 2%;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -868,14 +883,14 @@ footer {
           flex-direction: row;
   width: 100vw;
   height: 8vh;
-  background-color: #1C1B21;
-  color: #B7BFEA;
+  background-color: #1c1b21;
+  color: #b7bfea;
   font-size: 12px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .footer_container {

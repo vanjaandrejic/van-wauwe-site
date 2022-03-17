@@ -1,138 +1,138 @@
 header {
-    width: 100vw;
-    height: 100%;
-    background-image: url("../images/background1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    color: white;
+  width: 100vw;
+  height: 100%;
+  background-image: url("../images/background1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
 }
 
 .head_container {
-   width: 80vw;
-   height: 93vh;
-   margin: 0 auto;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+  width: 80vw;
+  height: 93vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .head_text {
-    max-width: 25vw;
+  max-width: 25vw;
 }
 
 .head_text h1 {
-    font-family: "All Round Gothic";
-    font-size: 60px;
-    padding-bottom: 15px;
+  font-family: "All Round Gothic";
+  font-size: 60px;
+  padding-bottom: 15px;
 }
 
 .head_text p {
-    font-size: 17px;
-    padding-bottom: 15px;
+  font-size: 17px;
+  padding-bottom: 15px;
 }
 
 .head_text button {
-    background-color: $blue; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+  background-color: $blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .head_text button:hover {
-    transform: scale(1.05);
-    border-radius: 2%;
+  transform: scale(1.05);
+  border-radius: 2%;
 }
 
 .head_aside {
-    background-color: white;
-    width: 740px;
-    height: 550px;
-    right: 0;
-    position: relative;
+  background-color: white;
+  width: 740px;
+  height: 550px;
+  right: 0;
+  position: relative;
 }
 
 .head_buttons {
-    padding: 5% 0;
+  padding: 5% 0;
 }
 
-
-
 .aside_back_img {
-    position: absolute;
-    right: 0;
+  position: absolute;
+  right: 0;
 }
 
 .aside_window_img {
-   position: absolute;
-   left: -15%;
-   top: 10%;
+  position: absolute;
+  left: -15%;
+  top: 10%;
 }
 
 .head_aside_text {
-    width: 45%;
-    position: absolute;
-    right: 70px;
-    bottom: 70px;
+  width: 45%;
+  position: absolute;
+  right: 70px;
+  bottom: 70px;
 }
 
 .head_aside_text h2 {
-    font-family: "All Round Gothic";
-    color: #304DE5;
-    font-size: 22px;
-    padding: 5px 0px;
+  font-family: "All Round Gothic";
+  color: #304de5;
+  font-size: 22px;
+  padding: 5px 0px;
 }
 
 .head_aside_text h3 {
-    font-family: "All Round Gothic";
-    color: black;
-    font-size: 22px;
-    padding: 5px 0px;
+  font-family: "All Round Gothic";
+  color: black;
+  font-size: 22px;
+  padding: 5px 0px;
 }
 
 .head_aside_text h4 {
-    font-family: "All Round Gothic";
-    color: #304DE5;
-    font-size: 16px;
-    padding: 5px 0px;
+  font-family: "All Round Gothic";
+  color: #304de5;
+  font-size: 16px;
+  padding: 5px 0px;
 }
 
 .head_aside_text p {
-    font-family: "Poppins";
-    color: gray;
-    font-size: 17px;
-    padding: 5px 0px;
+  font-family: "Poppins";
+  color: gray;
+  font-size: 17px;
+  padding: 5px 0px;
 }
 
 .head_footer {
-    width: 80vw;
-    height: 5%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: absolute;
-    bottom: 0;
-    background-color: #304DE5;
-    color: white;
+  width: 80vw;
+  height: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  background-color: #304de5;
+  color: white;
 }
 
 .head_footer_item {
-    width: 20%;
+  width: 20%;
 }
 
-
-
 .head_footer_item h1 {
-    font-family: "All Round Gothic";
-    font-size: 18px;
-    padding-left: 20%;
+  font-family: "All Round Gothic";
+  font-size: 19px;
+  padding-left: 20%;
+}
+
+.head_footer_item h1:hover {
+  letter-spacing: 0.05em
 }
 
 .head_overlay {
-    position: relative;
-    background-color: rgba($color: #000000, $alpha: 0.7);
+  position: relative;
+  background-color: rgba($color: #000000, $alpha: 0.7);
 }

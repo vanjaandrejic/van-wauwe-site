@@ -1,109 +1,105 @@
 .services {
-    width: 100vw;
-    height: 90vh;
-    padding-top: 200px;
-    color: white;
+  width: 100vw;
+  height: 90vh;
+  padding-top: 200px;
+  color: white;
 }
 
 .back_div {
-   background-color: $blue; 
-   width: 70vw;
-   height: 155vh;
-   position: absolute;
-   right: 0;
+  background-color: $blue;
+  width: 70vw;
+  height: 155vh;
+  position: absolute;
+  right: 0;
 }
 
 .services_container {
-    width: 80vw;
-    margin: 0 auto; 
+  width: 80vw;
+  margin: 0 auto;
 }
 
 .services_img {
-    position: absolute;
-    margin-top: 6%;
+  position: absolute;
+  margin-top: 6%;
 }
 
 .services_text {
-    position: absolute;
-    right: 0px;
-    max-width: 30%;
-    margin-top: 15%;
-    margin-right: 10%;
+  position: absolute;
+  right: 0px;
+  max-width: 30%;
+  margin-top: 15%;
+  margin-right: 10%;
 }
 
 .services_text h1 {
-    font-family: "All Round Gothic";
-    font-size: 50px;
-    padding-bottom: 15px;
+  font-family: "All Round Gothic";
+  font-size: 50px;
+  padding-bottom: 15px;
 }
 
 .services_text p {
-    font-family: "Poppins";
-    font-size: 17px;
-    padding: 10px 0;
+  font-family: "Poppins";
+  font-size: 17px;
+  padding: 10px 0;
 }
 
 .services_text button {
-    background-color: $white; 
-    border: none;
-    color: $blue;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+  background-color: $white;
+  border: none;
+  color: $blue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .services_text button:hover {
-    transform: scale(1.05);
-    border-radius: 2%;
+  transform: scale(1.05);
+  border-radius: 2%;
 }
 
 .services_footer {
-    max-height: 80vh;
-    position: relative;
-    top: 210%;
-    bottom: 10%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: black;
-    margin: 10%;
+  max-height: 80vh;
+  position: relative;
+  top: 210%;
+  bottom: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  margin: 10%;
 }
 
 .service_footer_text {
-    width: 40%;
+  width: 40%;
 }
 
 .service_footer_text h1 {
-    font-family: "All Round Gothic";
-    font-size: 50px;
-    padding: 5% 0;
+  font-family: "All Round Gothic";
+  font-size: 50px;
+  padding: 5% 0;
 }
 
 .service_footer_text p {
-    font-size: 17px;
-    color: $gray;
-    padding: 15px 0;
+  font-size: 17px;
+  color: $gray;
+  padding: 15px 0;
 }
 
 .service_footer_text button {
-    background-color: $blue; 
-    border: none;
-    color: $white;
-    padding: 15px 32px;
-    margin-top: 8%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+  background-color: $blue;
+  border: none;
+  color: $white;
+  padding: 15px 32px;
+  margin-top: 8%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .service_footer_text button:hover {
-    transform: scale(1.05);
-    border-radius: 2%;
+  transform: scale(1.05);
+  border-radius: 2%;
 }
-
-
-
-
