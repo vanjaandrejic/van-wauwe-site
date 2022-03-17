@@ -44,7 +44,7 @@
 }
 
 .services_text button {
-    background-color: white; 
+    background-color: $white; 
     border: none;
     color: $blue;
     padding: 15px 32px;
@@ -52,6 +52,11 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+.services_text button:hover {
+    transform: scale(1.05);
+    border-radius: 2%;
 }
 
 .services_footer {
@@ -92,6 +97,11 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+.service_footer_text button:hover {
+    transform: scale(1.05);
+    border-radius: 2%;
 }
 
 

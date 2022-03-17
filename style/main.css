@@ -109,6 +109,12 @@ header {
   font-size: 16px;
 }
 
+.head_text button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  border-radius: 2%;
+}
+
 .head_aside {
   background-color: white;
   width: 740px;
@@ -248,6 +254,12 @@ header {
   font-size: 16px;
 }
 
+.about_text button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  border-radius: 2%;
+}
+
 .services {
   width: 100vw;
   height: 90vh;
@@ -294,7 +306,7 @@ header {
 }
 
 .services_text button {
-  background-color: white;
+  background-color: #ffff;
   border: none;
   color: #304DE5;
   padding: 15px 32px;
@@ -302,6 +314,12 @@ header {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.services_text button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  border-radius: 2%;
 }
 
 .services_footer {
@@ -348,6 +366,12 @@ header {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.service_footer_text button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  border-radius: 2%;
 }
 
 .slider {
@@ -445,6 +469,12 @@ header {
   position: relative;
 }
 
+.contact button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  border-radius: 2%;
+}
+
 .contact_card_wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -524,6 +554,12 @@ header {
   margin: 5%;
 }
 
+.contact_info_cards button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  border-radius: 2%;
+}
+
 .card_inf {
   width: 30vw;
   height: 100%;
@@ -577,7 +613,7 @@ header {
   height: 100%;
   background-color: #304DE5;
   margin-top: 65%;
-  color: white;
+  color: #ffff;
 }
 
 .news h1 {
@@ -590,7 +626,7 @@ header {
 }
 
 .news_button {
-  background-color: white;
+  background-color: #ffff;
   border: none;
   color: #304DE5;
   padding: 15px 32px;
@@ -602,6 +638,12 @@ header {
   position: relative;
   margin-bottom: 5%;
   margin-top: 5%;
+}
+
+.news_button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  border-radius: 2%;
 }
 
 .news_container {
@@ -644,7 +686,7 @@ header {
 .news_card_row h4 {
   padding: 4px;
   margin: 15px 15px 20px 0;
-  background-color: white;
+  background-color: #ffff;
   color: #1C1B21;
 }
 

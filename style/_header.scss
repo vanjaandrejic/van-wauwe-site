@@ -41,7 +41,11 @@ header {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    
+}
+
+.head_text button:hover {
+    transform: scale(1.05);
+    border-radius: 2%;
 }
 
 .head_aside {
