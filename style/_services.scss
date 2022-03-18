@@ -1,14 +1,14 @@
 .services {
   width: 100vw;
   height: 90vh;
-  padding-top: 200px;
+  padding-top: 12%;
   color: white;
 }
 
 .back_div {
   background-color: $blue;
   width: 70vw;
-  height: 155vh;
+  height: 166vh;
   position: absolute;
   right: 0;
 }
@@ -25,10 +25,10 @@
 
 .services_text {
   position: absolute;
-  right: 0px;
   max-width: 30%;
+  margin-left: 50%;
   margin-top: 15%;
-  margin-right: 10%;
+
 }
 
 .services_text h1 {
@@ -52,6 +52,7 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin-top: 5%;
 }
 
 .services_text button:hover {
@@ -60,15 +61,15 @@
 }
 
 .services_footer {
-  max-height: 80vh;
+  width: 80vw;
+  height: 50vh;
   position: relative;
-  top: 210%;
-  bottom: 10%;
+  margin-top: 15%;
+  margin-left: 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: black;
-  margin: 10%;
+  padding: 4%;
 }
 
 .service_footer_text {
@@ -79,12 +80,13 @@
   font-family: "All Round Gothic";
   font-size: 50px;
   padding: 5% 0;
+  color: black;
 }
 
 .service_footer_text p {
   font-size: 17px;
   color: $gray;
-  padding: 15px 0;
+  padding: 2% 0;
 }
 
 .service_footer_text button {

@@ -1,19 +1,19 @@
 .contact {
   width: 100vw;
-  height: 120vh;
+  height: 100vh;
   background-image: url("../images/background2.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  margin-top: 100%;
+  margin-top: 105%;
 }
 
-.contact h1 {
+.contact_first_heading {
   font-family: "All Round Gothic";
   color: $white;
   font-size: 50px;
-  padding-top: 6%;
   margin-left: 30%;
+  padding-top: 5%;
 }
 
 .contact_overlay {
@@ -24,15 +24,15 @@
 
 .contact_container {
   width: 80vw;
-  height: 90vh;
+  height: 80vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 3% auto;
 }
 
-.contact button {
+.first_contact_button {
   background-color: $blue;
   border: none;
   color: $white;
@@ -41,9 +41,7 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-bottom: 6%;
-  margin-left: 40%;
-  position: relative;
+  margin-bottom: 5%;
 }
 
 .contact button:hover {
@@ -53,6 +51,8 @@
 
 .contact_card_wrapper {
   display: flex;
+  flex-direction: row;
+  width: 80vw;
 }
 
 .card {
@@ -84,25 +84,21 @@
 }
 
 .contact_info_cards {
-  margin: 0 auto;
+  margin: 5% auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
-.contact_card_wrapper {
-  width: 80vw;
-}
-
-.contact_info_cards h1 {
+.contact_second_heading{
   font-family: "All Round Gothic";
+  font-size: 50px;
+  padding: 3%;
   color: #000000;
-  padding-bottom: 5%;
-  margin-right: 30%;
 }
 
-.contact_info_cards button {
+.second_contact_button {
   background-color: $blue;
   border: none;
   color: $white;
@@ -120,7 +116,7 @@
 }
 
 .card_inf {
-  width: 30vw;
+  width: 100%;
   height: 100%;
   min-height: 50vh;
   background-color: #edeff8;
@@ -133,7 +129,6 @@
 .card_inf h2 {
   font-family: "All Round Gothic";
   font-size: 30px;
-  padding-bottom: 1%;
 }
 
 .card_inf_row {
@@ -144,7 +139,7 @@
 .card_inf_row p {
   font-size: 17px;
   color: $gray;
-  padding: 5px 0;
+  padding: 1% 0;
 }
 
 .card_inf h2 {

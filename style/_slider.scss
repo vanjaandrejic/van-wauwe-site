@@ -1,8 +1,9 @@
 .slider {
-  width: 100%;
+  width: 100vw;
+  height: 20vh;
   margin: 0 auto;
   position: absolute;
-  top: 230%;
+  margin-top: 50%;
   left: 25%;
 }
 
@@ -17,8 +18,8 @@
 }
 
 .slider_btns {
-  position: absolute;
-  top: 285%;
+  position: relative;
+  margin-top: 80%;
   left: 50%;
 }
 
@@ -27,7 +28,15 @@
   border: none;
 }
 
+.slide_left:hover {
+  transform: scale(1.1);
+}
+
 .slide_right {
   background-color: transparent;
   border: none;
+}
+
+.slide_right:hover {
+  transform: scale(1.1);
 }

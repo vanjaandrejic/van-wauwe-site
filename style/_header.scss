@@ -23,6 +23,7 @@ header {
 
 .head_text h1 {
   font-family: "All Round Gothic";
+  font-style: normal;
   font-size: 60px;
   padding-bottom: 15px;
 }
@@ -82,33 +83,33 @@ header {
   font-family: "All Round Gothic";
   color: #304de5;
   font-size: 22px;
-  padding: 5px 0px;
+  padding: 2% 0;
 }
 
 .head_aside_text h3 {
   font-family: "All Round Gothic";
   color: black;
   font-size: 22px;
-  padding: 5px 0px;
+  padding: 2% 0px;
 }
 
 .head_aside_text h4 {
   font-family: "All Round Gothic";
   color: #304de5;
   font-size: 16px;
-  padding: 5px 0px;
+  padding: 2% 0px;
 }
 
 .head_aside_text p {
   font-family: "Poppins";
   color: gray;
   font-size: 17px;
-  padding: 5px 0px;
+  padding: 2% 0px;
 }
 
 .head_footer {
   width: 80vw;
-  height: 5%;
+  height: 9%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -118,8 +119,18 @@ header {
   color: white;
 }
 
+.hf_ball {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: white;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+
 .head_footer_item {
   width: 20%;
+  margin-bottom: 4%;
 }
 
 .head_footer_item h1 {
