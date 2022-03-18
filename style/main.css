@@ -953,6 +953,12 @@ footer {
   }
 }
 
+@media all and (max-width: 1810px) {
+  .slider_btns {
+    margin-top: 87%;
+  }
+}
+
 @media all and (max-width: 1770px) {
   .news {
     margin-top: 75%;
@@ -962,6 +968,12 @@ footer {
 @media all and (max-width: 1700px) {
   .contact {
     margin-top: 120%;
+  }
+  .services_footer {
+    margin-top: 20%;
+  }
+  .slider {
+    margin-top: 53%;
   }
 }
 
@@ -978,11 +990,23 @@ footer {
   .card_inf_row p {
     font-size: 13px;
   }
+  .services_footer {
+    margin-top: 25%;
+  }
+  .slider {
+    margin-top: 58%;
+  }
+  .slider_btns {
+    margin-top: 93%;
+  }
 }
 
 @media all and (max-width: 1550px) {
   .news_footer_card_third {
     padding: 1%;
+  }
+  .slider_btns {
+    margin-top: 96%;
   }
 }
 
@@ -1011,6 +1035,13 @@ footer {
 }
 
 @media all and (max-width: 1450px) {
+  .slider {
+    margin-top: 67%;
+    left: 40%;
+  }
+  .slider_images img {
+    width: 50vw;
+  }
   .services_img img {
     width: 45vw;
     margin-top: 20%;
@@ -1076,6 +1107,12 @@ footer {
 }
 
 @media all and (max-width: 1350px) {
+  .services_footer {
+    height: 40vh;
+  }
+  .back_div {
+    height: 150vh;
+  }
   .news_footer_card_first h2 {
     font-size: 20px;
   }
@@ -1132,6 +1169,15 @@ footer {
   }
 }
 
+@media all and (max-width: 1250px) {
+  .back_div {
+    height: 140vh;
+  }
+  .slider {
+    left: 50%;
+  }
+}
+
 @media all and (max-width: 1230px) {
   .head_footer_item h1 {
     font-size: 16px;
@@ -1160,6 +1206,12 @@ footer {
 }
 
 @media all and (max-width: 1150px) {
+  .back_div {
+    height: 125vh;
+  }
+  .slider {
+    left: 60%;
+  }
   .fa-bars {
     margin-left: 10px;
   }
