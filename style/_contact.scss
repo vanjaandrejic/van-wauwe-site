@@ -11,7 +11,7 @@
 .contact_first_heading {
   font-family: "All Round Gothic";
   color: $white;
-  font-size: 50px;
+  font-size: 3.125em;
   margin-left: 30%;
   padding-top: 5%;
 }
@@ -40,7 +40,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1em;
   margin-bottom: 5%;
 }
 
@@ -65,14 +65,14 @@
 
 .card h2 {
   font-family: "All Round Gothic";
-  font-size: 22px;
+  font-size: 1.375em;
   padding: 20px 30px;
 }
 
 .card p {
   color: $gray;
   padding: 10px 30px;
-  font-size: 17px;
+  font-size: 1.063em;
 }
 
 .card h3 {
@@ -106,7 +106,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1em;
   margin: 5%;
 }
 
@@ -128,7 +128,7 @@
 
 .card_inf h2 {
   font-family: "All Round Gothic";
-  font-size: 30px;
+  font-size: 1.875em;
 }
 
 .card_inf_row {
@@ -137,17 +137,11 @@
 }
 
 .card_inf_row p {
-  font-size: 17px;
+  font-size: 1.063em;
   color: $gray;
   padding: 1% 0;
 }
 
-.card_inf h2 {
-  font-family: "All Round Gothic";
-  font-size: 30px;
-  padding-bottom: 60px;
-}
-
 .card_inf_row h3 {
-  font-size: 18px;
+  font-size: 1.125em;
 }

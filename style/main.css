@@ -42,7 +42,7 @@ nav {
   padding: 0px 15px;
   word-wrap: normal;
   display: inline-block;
-  font-size: 18px;
+  font-size: 1.1250em;
 }
 
 .nav_icons i {
@@ -90,12 +90,12 @@ header {
 .head_text h1 {
   font-family: "All Round Gothic";
   font-style: normal;
-  font-size: 60px;
+  font-size: 3.75em;
   padding-bottom: 15px;
 }
 
 .head_text p {
-  font-size: 17px;
+  font-size: 1.063em;
   padding-bottom: 15px;
 }
 
@@ -107,7 +107,7 @@ header {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 .head_text button:hover {
@@ -149,28 +149,28 @@ header {
 .head_aside_text h2 {
   font-family: "All Round Gothic";
   color: #304de5;
-  font-size: 22px;
+  font-size: 1.375em;
   padding: 2% 0;
 }
 
 .head_aside_text h3 {
   font-family: "All Round Gothic";
   color: black;
-  font-size: 22px;
+  font-size: 1.375em;
   padding: 2% 0px;
 }
 
 .head_aside_text h4 {
   font-family: "All Round Gothic";
   color: #304de5;
-  font-size: 16px;
+  font-size: 1em;
   padding: 2% 0px;
 }
 
 .head_aside_text p {
   font-family: "Poppins";
   color: gray;
-  font-size: 17px;
+  font-size: 1.063em;
   padding: 2% 0px;
 }
 
@@ -207,7 +207,7 @@ header {
 
 .head_footer_item h1 {
   font-family: "All Round Gothic";
-  font-size: 19px;
+  font-size: 1.375em;
   padding-left: 20%;
 }
 
@@ -243,7 +243,7 @@ header {
 
 .about_container h1 {
   font-family: "All Round Gothic";
-  font-size: 50px;
+  font-size: 3.125em;
   max-width: 25%;
 }
 
@@ -253,7 +253,7 @@ header {
 
 .about_text p {
   font-family: "Poppins";
-  font-size: 17px;
+  font-size: 1.063em;
   padding: 10px 0;
   color: gray;
 }
@@ -266,7 +266,7 @@ header {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1em;
   margin-top: 3%;
 }
 
@@ -310,13 +310,13 @@ header {
 
 .services_text h1 {
   font-family: "All Round Gothic";
-  font-size: 50px;
+  font-size: 3.125em;
   padding-bottom: 15px;
 }
 
 .services_text p {
   font-family: "Poppins";
-  font-size: 17px;
+  font-size: 1.063em;
   padding: 10px 0;
 }
 
@@ -328,7 +328,7 @@ header {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1em;
   margin-top: 5%;
 }
 
@@ -362,13 +362,13 @@ header {
 
 .service_footer_text h1 {
   font-family: "All Round Gothic";
-  font-size: 50px;
+  font-size: 3.125em;
   padding: 5% 0;
   color: black;
 }
 
 .service_footer_text p {
-  font-size: 17px;
+  font-size: 1.063em;
   color: gray;
   padding: 2% 0;
 }
@@ -382,7 +382,7 @@ header {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 .service_footer_text button:hover {
@@ -453,7 +453,7 @@ header {
 .contact_first_heading {
   font-family: "All Round Gothic";
   color: #ffff;
-  font-size: 50px;
+  font-size: 3.125em;
   margin-left: 30%;
   padding-top: 5%;
 }
@@ -491,7 +491,7 @@ header {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1em;
   margin-bottom: 5%;
 }
 
@@ -527,14 +527,14 @@ header {
 
 .card h2 {
   font-family: "All Round Gothic";
-  font-size: 22px;
+  font-size: 1.375em;
   padding: 20px 30px;
 }
 
 .card p {
   color: gray;
   padding: 10px 30px;
-  font-size: 17px;
+  font-size: 1.063em;
 }
 
 .card h3 {
@@ -577,7 +577,7 @@ header {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1em;
   margin: 5%;
 }
 
@@ -605,7 +605,7 @@ header {
 
 .card_inf h2 {
   font-family: "All Round Gothic";
-  font-size: 30px;
+  font-size: 1.875em;
 }
 
 .card_inf_row {
@@ -619,19 +619,13 @@ header {
 }
 
 .card_inf_row p {
-  font-size: 17px;
+  font-size: 1.063em;
   color: gray;
   padding: 1% 0;
 }
 
-.card_inf h2 {
-  font-family: "All Round Gothic";
-  font-size: 30px;
-  padding-bottom: 60px;
-}
-
 .card_inf_row h3 {
-  font-size: 18px;
+  font-size: 1.125em;
 }
 
 .news {
@@ -644,7 +638,7 @@ header {
 
 .news h1 {
   font-family: "All Round Gothic";
-  font-size: 50px;
+  font-size: 3.125em;
   margin-left: 10%;
   padding-top: 4%;
   width: 100vw;
@@ -660,7 +654,7 @@ header {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1em;
   position: relative;
   margin-bottom: 5%;
   margin-top: 5%;
@@ -718,18 +712,18 @@ header {
 
 .news_card h3 {
   font-family: "All Round Gothic";
-  font-size: 22px;
+  font-size: 1.375em;
   padding: 5px 0;
 }
 
 .news_card p {
-  font-size: 16px;
+  font-size: 1em;
   color: #b7bfea;
   padding: 5px 0;
 }
 
 .news_card h2 {
-  font-size: 16px;
+  font-size: 1em;
   padding: 10px 0;
 }
 
@@ -782,12 +776,12 @@ header {
 
 .news_footer_card_first h2 {
   font-family: "All Round Gothic";
-  font-size: 24px;
+  font-size: 1.25em;
   padding: 30% 0;
 }
 
 .news_footer_card_first p {
-  font-size: 14px;
+  font-size: 0.875em;
   color: #b7bfea;
   padding: 5% 0;
 }
@@ -808,18 +802,18 @@ header {
 .news_footer_card_second h2 {
   font-family: "All Round Gothic";
   font-style: normal;
-  font-size: 24px;
+  font-size: 1.25em;
   padding: 14% 0;
 }
 
 .news_footer_card_second h3 {
   font-family: "All Round Gothic";
-  font-size: 18px;
+  font-size: 1em;
   padding: 1% 0;
 }
 
 .news_footer_card_second p {
-  font-size: 14px;
+  font-size: 0.875em;
   color: #b7bfea;
   padding: 1% 0;
 }
@@ -843,7 +837,7 @@ header {
 
 .news_footer_social_icons h2 {
   margin-top: 20%;
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 .news_footer_social_icons i {
@@ -869,12 +863,12 @@ header {
 
 .news_footer_card_third h2 {
   font-family: "All Round Gothic";
-  font-size: 24px;
+  font-size: 1.25em;
   padding-bottom: 10%;
 }
 
 .news_footer_card_third h3 {
-  font-size: 18px;
+  font-size: 1em;
   padding: 10% 0;
 }
 
@@ -887,7 +881,7 @@ header {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 .news_footer_card_button:hover {
@@ -908,7 +902,7 @@ footer {
   height: 8vh;
   background-color: #1c1b21;
   color: #b7bfea;
-  font-size: 12px;
+  font-size: 0.75em;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -977,19 +971,7 @@ footer {
   }
 }
 
-@media all and (max-width: 1670px) {
-  .head_text h1 {
-    font-size: 45px;
-  }
-  .head_text p {
-    font-size: 14px;
-  }
-}
-
 @media all and (max-width: 1604px) {
-  .card_inf_row p {
-    font-size: 13px;
-  }
   .services_footer {
     margin-top: 25%;
   }
@@ -1026,12 +1008,6 @@ footer {
   .contact {
     margin-top: 140%;
   }
-  .services_text h1 {
-    font-size: 40px;
-  }
-  .services_text p {
-    font-size: 15px;
-  }
 }
 
 @media all and (max-width: 1450px) {
@@ -1062,45 +1038,12 @@ footer {
   .head_aside_text {
     left: 55%;
   }
-  .head_aside_text h2 {
-    font-size: 14px;
-  }
-  .head_aside_text h3 {
-    font-size: 14px;
-  }
-  .head_aside_text h4 {
-    font-size: 14px;
-  }
-  .head_aside_text p {
-    font-size: 12px;
-  }
-  .news_footer_card_third h2 {
-    font-size: 18px;
-  }
-  .news_footer_card_third h3 {
-    font-size: 16px;
-  }
-  .news_footer_card_third button {
-    font-size: 14px;
-  }
   .news_footer_card_third_img img {
     width: 20vw;
   }
 }
 
 @media all and (max-width: 1400px) {
-  .head_aside_text h2 {
-    font-size: 14px;
-  }
-  .head_aside_text h3 {
-    font-size: 14px;
-  }
-  .head_aside_text h4 {
-    font-size: 14px;
-  }
-  .head_aside_text p {
-    font-size: 14px;
-  }
   .service_footer_img img {
     width: 40vw;
   }
@@ -1113,33 +1056,9 @@ footer {
   .back_div {
     height: 150vh;
   }
-  .news_footer_card_first h2 {
-    font-size: 20px;
-  }
-  .news_footer_card_first p {
-    font-size: 12px;
-  }
-  .news_footer_card_second h2 {
-    font-size: 20px;
-  }
-  .news_footer_card_second p {
-    font-size: 12px;
-  }
-  .card_inf h2 {
-    font-size: 20px;
-  }
-  .card_inf_row h3 {
-    font-size: 12px;
-  }
 }
 
 @media all and (max-width: 1300px) {
-  .nav_links a {
-    font-size: 14px;
-  }
-  .nav_flag h3 {
-    font-size: 14px;
-  }
   .logo {
     width: 20%;
   }
@@ -1148,21 +1067,6 @@ footer {
   }
   .news {
     margin-top: 95%;
-  }
-  .news h1 {
-    font-size: 40px;
-  }
-  .about_container h1 {
-    font-size: 40px;
-  }
-  .contact h1 {
-    font-size: 40px;
-  }
-  .card h2 {
-    font-size: 18px;
-  }
-  .card p {
-    font-size: 14px;
   }
   .news_footer_card_first h2 {
     margin: 5% 0;
@@ -1179,20 +1083,8 @@ footer {
 }
 
 @media all and (max-width: 1230px) {
-  .head_footer_item h1 {
-    font-size: 16px;
-  }
   .contact {
     margin-top: 160%;
-  }
-  .news_card h2 {
-    font-size: 10px;
-  }
-  .news_card h3 {
-    font-size: 18px;
-  }
-  .service_footer_text h1 {
-    font-size: 35px;
   }
 }
 
